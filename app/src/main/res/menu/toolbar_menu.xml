@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/firstA"
+        android:title="Accout"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/svg_home"/>
+
+    <item android:id="@+id/firstB"
+        android:title="Balance"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/svg_contact"/>
+
+    <item android:id="@+id/firstC"
+        android:title="Debit"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/svg_signal"/>
+
+    <item android:id="@+id/firstE"
+        android:title="Credit"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/svg_left"/>
+</menu>

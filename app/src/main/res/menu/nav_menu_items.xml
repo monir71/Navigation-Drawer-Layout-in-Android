@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_a"
+        android:title="Home"
+        android:icon="@drawable/svg_home"/>
+
+    <item android:id="@+id/nav_b"
+        android:title="Action"
+        android:icon="@drawable/svg_signal"/>
+
+    <item android:id="@+id/nav_c"
+        android:title="Method"
+        android:icon="@drawable/svg_left"/>
+
+    <item android:id="@+id/nav_d"
+        android:title="Home"
+        android:icon="@drawable/svg_contact"/>
+
+    <item android:id="@+id/nav_e"
+        android:title="Home"
+        android:icon="@drawable/svg_tel"/>
+
+    <item android:id="@+id/nav_f"
+        android:title="Home"
+        android:icon="@drawable/svg_plus"/>
+
+    <item android:id="@+id/nav_g"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_h"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_i"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_j"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_k"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_l"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_m"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_n"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_o"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_p"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_q"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_r"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_s"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+    <item android:id="@+id/nav_t"
+        android:title="Home"
+        android:icon="@drawable/svg_rose"/>
+
+
+</menu>
