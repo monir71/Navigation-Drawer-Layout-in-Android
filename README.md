@@ -1,7 +1,7 @@
 Note here in actiivity_main.xml
 We used DrawerLayout with android:fitsSystemWindows="true" and tools:openDrawer="start"
 And a NavigationView with app:headerLayout="@layout/header_layout" and app:menu="@menu/nav_menu_items"
-
+```
     <include layout="@layout/app_bar_main"
         android:layout_height="match_parent"
         android:layout_width="match_parent"/>
@@ -16,9 +16,9 @@ And a NavigationView with app:headerLayout="@layout/header_layout" and app:menu=
         app:menu="@menu/nav_menu_items"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
-
+```
 Here in app_bar_main.xml we used Toolbar within AppBarLayout
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -44,9 +44,9 @@ Here in app_bar_main.xml we used Toolbar within AppBarLayout
     <include layout="@layout/content_main"/>
     
 </LinearLayout>
-
+```
 Here in content_main.xml it is container of FrameLayout
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -61,9 +61,9 @@ Here in content_main.xml it is container of FrameLayout
         android:id="@+id/container"/>
 
 </LinearLayout>
-
+```
 Here in header_layout.xml we used ImageView and TextView
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -96,9 +96,9 @@ Here in header_layout.xml we used ImageView and TextView
         android:textSize="17sp"/>
 
 </LinearLayout>
-
+```
 Main Activity followed by. Note here override method onCreateOptionsMenu(Menu menu)
-
+```
 public class MainActivity extends AppCompatActivity {
 
     NavigationView navigationView;
@@ -183,5 +183,5 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-
+```
 
